@@ -1,0 +1,92 @@
+.second-page{
+    height: 729px;
+}
+.second-page .second-page-wrapper .cart-content-wrapper{
+    width: 80%;
+    height: 80%;
+
+}
+
+.second-page .content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+
+.second-page .content-wrapper .content h2{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+    letter-spacing: 6.45px;
+}
+.second-page .content-wrapper .content p{
+    color: #000;
+    opacity: 0.7;
+    /* Body / Base */
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+
+.second-page .content-wrapper .content p{
+    color: #000;
+    opacity: 0.7;
+    /* Body / Base */
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+.second-page .content-wrapper .content .cart{
+    width: 310px;
+    height: 542px;
+}
+.second-page .content-wrapper .content .cart-img{
+    width: 300px;
+    height: 265px;
+}
+.second-page .content-wrapper .content .cart-img img{
+    width: 100%;
+    height: 100%;
+}
+.second-page .content-wrapper .content .cart-price{
+    color: #0C0D0C;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+}
+.second-page .content-wrapper .content .cart-name{
+    color: #000;
+
+    /* Heading / Base */
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 41.6px */
+}
+
+.second-page .content-wrapper .content .cart-description{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+
+.cart-content-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
