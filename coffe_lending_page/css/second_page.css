@@ -8,6 +8,11 @@
     height: 80%;
 
 }
+.second-page .second-page-wrapper .text-wrapper{
+    width: 80%;
+    height: 80%;
+
+}
 
 .second-page .content-wrapper{
     display: flex;
@@ -26,6 +31,7 @@
     font-weight: 600;
     line-height: 130%; /* 55.9px */
     letter-spacing: 6.45px;
+
 }
 .second-page .content-wrapper .content p{
     color: #000;

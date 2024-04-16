@@ -18,7 +18,7 @@
 
 <main>
         <!--Pavlo-->
-            <div class="content first-page">
+            <div class="content first-page" id="first-page">
                 <nav>
                     <header>
                         <div class="header_container">
@@ -35,8 +35,8 @@
                                 </div>
 
                                 <div class="menu__links">
-                                    <a class="menu__links-item home" href="/">Home</a>
-                                    <a class="menu__links-item about-us" href="/">About Us</a>
+                                    <a class="menu__links-item home" href="#first-page">Home</a>
+                                    <a class="menu__links-item about-us" href="#second-page">About Us</a>
                                     <a class="menu__links-item menu-link" href="/">Menu</a>
                                     <a class="menu__links-item review" href="/">Review </a>
                                     <a class="menu__links-item contract" href="/">Contact </a>
@@ -57,15 +57,18 @@
                 </div>
             </div>
 
-            <div class="content second-page">
+            <div class="content second-page" id="second-page">
                 <div class="second-page-wrapper">
                     <div class="content-wrapper">
-                        <div class="content" style="height: 58px">
-                            <h2>That is Our Best Offer</h2>
+                        <div class="text-wrapper">
+                            <div class="content" style="height: 58px; width: 80%">
+                                <h2>That is Our Best Offer</h2>
+                            </div>
+                            <div class="content" style="height: 58px; width: 80%">
+                                <p>A coffee shop will help you to tell the audience what your business.</p>
+                            </div>
                         </div>
-                        <div class="content" style="height: 58px">
-                            <p>A coffee shop will help you to tell the audience what your business.</p>
-                        </div>
+
 
                         <div class="cart-content-wrapper">
                         <div class="content" style="height: 483px">
@@ -118,5 +121,6 @@
         <!--Denis-->
     </main>
     <footer></footer>
+
 </body>
 </html>
