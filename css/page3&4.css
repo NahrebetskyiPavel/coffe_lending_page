@@ -14,8 +14,8 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 143px;
-    margin-top: 130px;
+    padding-bottom: 143px;
+    padding-top: 130px;
 
 }
 h2{
