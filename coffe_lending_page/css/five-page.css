@@ -1,0 +1,207 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 147px; /* Указал отступы с обеих сторон */
+   height: 1023px;
+}
+
+.section-title {
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 130%;
+    margin: 20px auto;
+}
+
+.section-text {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 20px auto;
+    word-wrap: break-word;
+}
+
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 362px;
+    height: 536px;
+    margin: 20px 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
+}
+
+.card-image {
+    width: 362px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.card-text {
+    padding: 20px 30px;
+    color: #000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.card-description {
+    width: 302px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 10px;
+}
+
+.card-cta {
+    color: #FF4B32;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Футтер */
+
+/* Стили для футера */
+.footer {
+    width: 100%;
+    height: 406px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.coffe,
+.categories,
+.informaition,
+.folovowUs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Изменено на flex-start */
+}
+
+.coffe {
+    margin-left: 147px;
+}
+
+.folovowUs {
+    margin-right: 147px;
+    margin-bottom: 53px;
+}
+
+#coffee {
+    color: #FF4B32;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+p {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+#paragraf {
+    margin: 30px 0;
+    width: 250px;
+    height: 58px;
+}
+
+#nomber6 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.telephoneLogo_6 {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+h3 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.social_media6 {
+    width: 243px;
+    height: 38px;
+    flex-shrink: 0;
+    display: flex;
+    margin-top: 54px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 30px;
+}
+
+.categories p:not(:first-child),
+.informaition p:not(:first-child) {
+    margin-top: 20px; /* Добавлено расстояние между параграфами, кроме первого */
+}
+
+
+
